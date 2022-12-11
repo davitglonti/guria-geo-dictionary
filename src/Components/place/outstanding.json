@@ -1,0 +1,45 @@
+
+
+ [
+   {
+    "id":1,
+    "name":"ააააჯ",
+    "info": "ასდფფგჰჯლჰგნჰ;ნჰფგლ;ლმ;",
+    "image":"https://images.unsplash.com/photo-1664911005159-d5b3e8f4afa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "Fullinfo": "სცფიკლსავფლდკვჰდსლკვლსკავცლ;სავცლკდსჯვდსგბჯდლო;გსდოვფგ",
+    "category":"მწერალი"
+  
+    } ,
+   {
+    
+    "name":"კლნკლნკკლლ",
+    "info": "ასდფფგჰჯლჰგნჰ;ნჰფგლ;ლმ;",
+    "image":"https://images.unsplash.com/photo-1664966502220-7a767e8b23e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "Fullinfo": "სცფიკლსავფლდკვჰდსლკვლსკავცლ;სავცლკდსჯვდსგბჯდლო;გსდოვფგ",
+    "category":"მათემატიკოსი"
+   } ,
+   {
+    "name":"კლნ",
+    "info": "ასდფფგჰჯლჰგნჰ;ნჰფგლ;ლმ;",
+    "image":"https://images.unsplash.com/photo-1664966502220-7a767e8b23e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "Fullinfo": "სცფიკლსავფლდკვჰდსლკვლსკავცლ;სავცლკდსჯვდსგბჯდლო;გსდოვფგ",
+    "category":"მწერალი"
+   } ,
+   {
+    "name":"სკლვჰდკჯდ",
+    "info": "ასდფფგჰჯლჰგნჰ;ნჰფგლ;ლმ;",
+    "image":"https://images.unsplash.com/photo-1664966502220-7a767e8b23e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "Fullinfo": "სცფიკლსავფლდკვჰდსლკვლსკავცლ;სავცლკდსჯვდსგბჯდლო;გსდოვფგ",
+    "category":"ისტორიკოსი"
+   } ,
+   {
+    "name":"დფფფ",
+    "info": "ასდფფგჰჯლჰგნჰ;ნჰფგლ;ლმ;",
+    "image":"https://images.unsplash.com/photo-1664966502220-7a767e8b23e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "Fullinfo": "სცფიკლსავფლდკვჰდსლკვლსკავცლ;სავცლკდსჯვდსგბჯდლო;გსდოვფგ",
+    "category":"გმირი"
+   } 
+
+ 
+  ]
+

@@ -1,0 +1,169 @@
+
+.section-1 {
+  background: #a8c0ff;
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+  padding-top: 80px;
+  overflow-y: hidden;
+}
+
+main {
+  background: rgba(217, 214, 228, 0.12);
+  border-radius: 10px;
+  padding: 5px 20px 50px;
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto 214px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.quiz-options {
+  margin: 60px 0;
+}
+
+input:invalid+label {
+  background: #fff;
+}
+
+input:invalid+label:hover {
+  background: linear-gradient(to right, #d8d9da 10%, #ffffff 80%);
+}
+
+
+
+
+.score-counter {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 210px;
+  height: 9%;
+  background: rgba(216, 187, 187, 0.749);
+  border: 4px solid rgb(218, 173, 27);
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  box-shadow: inset 2px -2px 9px #b45151, inset -2px 2px 9px #d2d2d2;
+}
+
+.score-text {
+  margin: 0 20px;
+}
+
+
+
+.one-a:checked,
+.two-c:checked,
+.three-c:checked,
+.four-b:checked,
+.five-a:checked {
+  counter-increment: points;
+}
+
+#game-over {
+  background: linear-gradient(rgb(28, 22, 49), rgba(18, 18, 25, 0.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px);
+  font-family: 'Bungee', cursive;
+  /* position: absolute; */
+  width: 100%;
+  height: 100vh;
+}
+
+.game-over-content {
+  display: grid;
+  justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+#game-over h1 {
+  background: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
+  background-clip: text;
+  color: transparent;
+  background-size: contain;
+  font-size: 5rem;
+  line-height: 1.2;
+  margin: 0;
+  position: relative;
+}
+
+
+@keyframes pulse {
+  0% {
+      opacity: 1;
+  }
+
+  49% {
+      opacity: 9;
+  }
+
+  50% {
+      opacity: .8;
+  }
+
+  99% {
+      opacity: .5;
+  }
+
+  100% {
+      opacity: .3;
+  }
+}
+
+@keyframes shine {
+  0% {
+      background-position: -100%;
+  }
+
+  100% {
+      background-position: 100%;
+  }
+}
+
+.gameover-info {
+  text-align: center;
+}
+
+.over-text-cont h2 {
+  font-family: 'Sirin Stencil', cursive;
+}
+
+
+
+#refresh {
+  color: #fff;
+  position: relative;
+  height: 100vh;
+}
+
+.refresh-content {
+  display: grid;
+  font-size: 1.2rem;
+  place-items: center;
+  width: 70%;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.refresh-content svg {
+  width: 50px;
+  height: auto;
+  animation: pulse 1s infinite;
+}
+
+.Goodresult{
+  color: green;
+}
+.Badresult{
+  color: red;
+}
+
+.QuizImage{
+  width: 250px;
+}

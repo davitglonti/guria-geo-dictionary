@@ -1,0 +1,147 @@
+.places{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.placedetalimage{
+    width: 100%;
+    height: 70vh;
+    
+}
+.placedetal{
+    margin: 50px;
+}
+
+.placedetalimage{
+  
+width: 100%;
+   height: 100vh;
+}
+.placedetalgallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.fullimg{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+   z-index: 2;
+  
+    
+    
+}
+.imgbtn{
+    z-index: 10;
+}
+
+
+.sacdel {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.slider {
+position: absolute;
+top: 0;
+left: 0px;
+    width: 100%;
+    height: 100vh;
+   
+  background-color: rgb(198, 198, 230);
+  }
+
+  .leftarrow{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+  
+  }
+  .rightarrow{
+  
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  
+  }
+
+  .image{
+    width: 80%;
+    height: 70vh;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+  }
+
+  .exitbtn{
+    font-size: 60px;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+
+
+  
+
+  .button-59 {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-59:focus {
+    color: #171e29;
+  }
+  
+  .button-59:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  .button-59:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
+
+  .outstanding{
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    
+  }

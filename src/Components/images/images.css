@@ -1,0 +1,78 @@
+/*
+.headimages{
+
+ 
+    height: 300px;
+}
+
+
+.fullimage{
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+ margin: 50px;
+
+
+}
+.container {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  width: 100%;
+
+}
+.fullimgiconleft{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fullimgiconright{
+    position: absolute;
+    top: 50%;
+    right:0px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+*/
+
+
+
+.imgContainer{
+   width: 100%;
+   height: 100%;
+     position: fixed;
+    background-color: aquamarine;
+   
+}
+.Fullimage{
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.iconLeft{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.iconRight{
+  position: absolute;
+ top: 50%;
+ right: 0;
+}
